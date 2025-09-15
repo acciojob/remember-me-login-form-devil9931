@@ -40,11 +40,11 @@
         existingBtn.style.display = 'none';
       }
 
-      // Optionally clear the fields
-      usernameInput.value = '';
-      passwordInput.value = '';
-      rememberCheck.checked = false;
-    });
+    //   // Optionally clear the fields
+    //   usernameInput.value = '';
+    //   passwordInput.value = '';
+    //   rememberCheck.checked = false;
+    // });
 
     // Handle existing user login
     existingBtn.addEventListener('click', function () {
